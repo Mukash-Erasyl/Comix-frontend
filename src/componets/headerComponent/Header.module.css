@@ -1,0 +1,42 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Выравниваем элементы по вертикали */
+  width: 100%;
+  padding: 10px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  border-radius: 5px;
+}
+
+.finder {
+  flex: 1;
+  display: flex;
+  justify-content:space-around; /* Центрируем поиск по горизонтали */
+}
+
+@media (max-width: 769px) { 
+  .logo {
+    width: 75px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .finder {
+    justify-content: flex-end; /* Поиск будет справа */
+  }
+}
+@media (min-width: 769px) { 
+
+  .finder {
+    margin-right: 250px;
+  }
+}

@@ -1,0 +1,33 @@
+.content {
+  background-color: #222;
+  border: 2px solid white;
+  color: #fff;
+  padding: 1.5vw 3vw; /* Используем относительные единицы для отступов */
+  border-radius: 15px;
+}
+
+.ComixList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr)); /* Используем относительные единицы для колонок */
+  grid-column-gap: 5vw; /* Используем относительные единицы для промежутков между колонками */
+  grid-row-gap: 2vw; /* Используем относительные единицы для промежутков между строками */
+  list-style: none;
+  max-width: 950px;
+  padding: 0;
+  margin: 0 auto; /* Центрируем контейнер по горизонтали */
+}
+
+.peginationClass {
+  margin-top: 5vw; /* Используем относительные единицы для отступа сверху */
+}
+
+/* Медиа-запрос для мобильных экранов */
+@media (max-width: 768px) {
+  .ComixList {
+    grid-template-columns: repeat(2, 1fr); /* Изменяем на 2 колонки для мобильных устройств */
+    grid-column-gap: 8vw; /* Увеличиваем промежутки между колонками */
+    grid-row-gap: 3vw; /* Увеличиваем промежутки между строками */
+    padding: 1vw 6vw; /* Добавляем отступы справа и слева */
+    margin: 2vw auto; /* Устанавливаем отступы сверху/снизу и центрируем контейнер по горизонтали */
+  }
+}

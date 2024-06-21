@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-image: url('../public/image/backgroundWallpaper.jpeg' ); */
+  /* background: url('../public/image/backgroundWallpaper.jpeg') no-repeat center center fixed; */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+  background: linear-gradient(to right, #B96B85, #FEB9C6 );
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
