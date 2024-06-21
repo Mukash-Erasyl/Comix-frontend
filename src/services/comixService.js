@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = '/api/comix'; // URL вашего API
+const API_URL = 'https://comix-backend-app-name.herokuapp.com';; // URL вашего API
 
 export const getComixById = async (id) => {
   try {

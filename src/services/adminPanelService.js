@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-const API_URL = '/api/comix';
+const API_URL = 'https://comix-backend-app-name.herokuapp.com';;
 
 const AdminPanelService = async (comixData) => {
     try {
